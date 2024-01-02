@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+}
+.jcs {
+  justify-content: space-between;
+}
+.align {
+  align-items: center;
+}
+.line {
+  line-height: 20px;
+}
+.jcr {
+  justify-content: right;
+}
+.col-50 {
+  width: 50%;
+}
+.col-30 {
+  width: 30%;
+}
+.col-70 {
+  width: 70%;
+}
+.col-25 {
+  width: 25%;
+}
+.col-60 {
+  width: 60%;
+}
+.col-40 {
+  width: 40%;
+}
+.relative {
+  display: grid;
+}
+.flex {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.sec-one {
+  background-image: url(./Images/2109964.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.p-one {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-right: 30%;
+}
+.p-two {
+  color: #3d2514;
+}
+
+.logo i {
+  font-size: 18px;
+}
+.links {
+  background-color: #cec9c965;
+  padding: 13px 0;
+  margin-top: 20px;
+}
+.links ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.line {
+  line-height: 70px;
+}
+.links ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #fefefe;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.links ul li a:hover {
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #3d2514;
+  padding: 7px;
+}
+.p-three {
+  margin-top: 20%;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sec-one h1 {
+  margin-bottom: 10px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.p-four {
+  margin-bottom: 30px;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.button-1 {
+  margin-bottom: 20%;
+  background-color: tomato;
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  outline: transparent;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-1:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-1:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.cart-icon {
+  padding: 10px 0;
+  border-radius: 15px;
+  background-color: rgb(187, 58, 35);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cart-icon h3 {
+  color: white;
+  margin: 10px 0;
+}
+.icon-img img {
+  width: 40px;
+  margin-top: 25px;
+}
+.cart-icon p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.sec-two {
+  background-color: #21262a;
+}
+.sec-two-text h4 {
+  border-bottom: #fefefe solid;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cart-two {
+  margin-top: 50px;
+}
+.cart-two-icon {
+  padding: 10px 0;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cart-two-icon h5 {
+  font-size: 20px;
+  text-align: start;
+  padding: 10px 0 20px 30px;
+  color: black;
+}
+.relative h6 {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.p-month {
+  padding: 10px 0 0 0;
+  color: rgb(168, 59, 20);
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.p-date {
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cart-two-icon p {
+  color: black;
+  text-align: start;
+  padding: 5px 0 5px 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.button-2 {
+  margin: 10% 4% 5% 0;
+  background-color: rgb(96, 25, 25);
+  border: 0;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  outline: transparent;
+  padding: 5px 48px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-2:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-2:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.flex div {
+  margin: 0 5px 13px 7px;
+}
+
+.cart-three-icon {
+  /* width: 0%; */
+  color: black;
+  padding: 10px 0;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cart-three-icon img {
+  width: 100%;
+}
+.sec-three {
+  background-image: url(./Images/2109964.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.sec-three-one {
+  background-color: #ffffff5e;
+  margin: 0 30px 20px 0;
+}
+.sec-three-two {
+  background-color: #ffffff5e;
+  margin: 0 30px 0 0;
+}
+.sec-three-three {
+  background-color: #ffffffd2;
+  padding: 0px 0px 15px 0px;
+  border-radius: 20px;
+}
+.sec-three h6 {
+  color: rgb(255, 255, 255);
+  padding: 20px 0 5px 30px;
+  font-size: 20px;
+  font-family: "Segoe. UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-three p {
+  color: rgb(255, 255, 255);
+  padding: 20px 30px 10px 30px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-3 {
+  margin: 2% 0 5% 5%;
+  background-color: rgb(96, 25, 25);
+  border: 0;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  outline: transparent;
+  padding: 5px 48px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+.button-3:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-3:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.button-4 {
+  margin: 2% 0 5% 5%;
+  background-color: rgb(172, 157, 43);
+  border: 0;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  outline: transparent;
+  padding: 5px 48px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+.button-4:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 236, 71, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 195, 90, 0.5);
+}
+
+.button-4:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 236, 71, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 195, 90, 0.5);
+}
+.sec-three-three h6 {
+  color: black;
+  padding: 10px 0 0 30px;
+  font-size: 20px;
+  font-family: "Segoe. UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-three-three p {
+  color: black;
+  padding: 5px 30px 0x 30px;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sec-four {
+  background-color: #1e2327;
+}
+.sec-four-text h6 {
+  border-bottom: #fefefe solid;
+  padding: 20px 0;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cart-four-icon {
+  background-color: white;
+  margin: 30% 5% 30% 0;
+  /* margin-top: 30%; */
+  /* padding: 10% 2% 10% 0; */
+}
+.icon-four-img img {
+  width: 100%;
+}
+.cart-four-icon h6 {
+  color: black;
+  text-align: center;
+  padding: 5% 10% 0 10%;
+}
+
+.img-two {
+  width: 35%;
+  padding-left: 10%;
+}
+.p-five {
+  color: #d16010;
+  padding: 9% 0 0 20%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sec-five {
+  background-image: url(./Images/sec\ five.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.h-one {
+  color: white;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5% 20% 5% 0;
+}
+.cart-five {
+  padding-bottom: 10%;
+}
+.cart-five-icon {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.459);
+}
+.cart-five-icon h6 {
+  font-size: 30px;
+  padding: 5% 20% 0 20%;
+  text-align: center;
+  color: rgb(209, 185, 64);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart-five-icon p {
+  padding: 0 10px 20px 10px;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart-five-icon img {
+  width: 100%;
+}
+
+.cart-six-icon {
+  border-radius: 15px;
+  background-color: rgba(199, 195, 78, 0.705);
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.sec-six {
+  background-color: #21262a;
+}
+.sec-six-text {
+  padding: 10% 0;
+}
+.box-seven {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 20px 0 0;
+}
+.text {
+  background-color: #eae5e5;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 0 40px;
+  margin: 6px 10px 16px 0;
+}
+::placeholder {
+  color: rgb(50, 47, 47);
+}
+#email {
+  background-color: #eae5e5;
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 6px 10px 16px 0;
+}
+textarea {
+  margin: 15px 0;
+  background-color: #eae5e5;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  resize: both;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+input[type="submit"] {
+  background-color: #aa0404;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.cart-seven-icon h6 {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  border-bottom: #696b6c 2px solid;
+}
+form {
+  margin-top: 30px;
+}
+.box-eight {
+  background-color: #651c1c;
+  border-radius: 15px;
+  padding: 22%;
+}
+.box-eight h6{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box-eight p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px 0 30px 0;
+}
